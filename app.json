@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "my-project",
-    "slug": "my-project",
+    "slug": "proect1",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,16 +12,38 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "statusBar": {
+        "barStyle": "dark-content",
+        "backgroundColor": "#ffffff",
+        "hidden": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "statusBar": {
+        "barStyle": "dark-content",
+        "backgroundColor": "#ffffff",
+        "hidden": false
+      },
+      "package": "com.jerin_james.proect1"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "statusBar": {
+      "barStyle": "dark-content",
+      "backgroundColor": "#ffffff",
+      "hidden": false
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3554e89e-4f85-4d8a-aef3-bc481689ff1c"
+      }
+    },
+    "owner": "jerin_james"
   }
 }
